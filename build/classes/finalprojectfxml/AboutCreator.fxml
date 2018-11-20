@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="740.0" prefWidth="1008.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalprojectfxml.AboutCreatorController">
+   <children>
+      <Button id="goToMenu2" layoutX="879.0" mnemonicParsing="false" onAction="#loadMenu" prefHeight="47.0" prefWidth="129.0" text="Menu" />
+      <Label layoutX="6.0" prefHeight="47.0" prefWidth="189.0" text="About Creators" underline="true">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <VBox layoutX="6.0" layoutY="47.0" prefHeight="694.0" prefWidth="996.0" spacing="20.0">
+         <children>
+            <Label prefHeight="36.0" prefWidth="569.0" text="Brandon Sarmany, Stephen Brimer, Jason Latinovic">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="creatorTx" prefHeight="316.0" prefWidth="996.0" text="This application was developed as a group project by Brandon Sarmany, Jason Latinovic, and Stephen Brimer. All were first year Sheridan students in the Software Development and Network Engineering at the time of creation.Version 1.0:The application runs through a simple draft for a fantasy hockey league. The users choose their teams (Toronto, Boston, Detroit, and New York). Users will then take turns selecting players for the season. For the inaugural season, the order has been determined: Toronto, Detroit, Boston, New York.Once the draft has finished, the teams are set and you will be able to view all teams.Future developments:- set a countdown for users to make their selection within.- add previous season and/or career stats.- be able to sort players based on the above mentioned stats.- require the user to select a specific number of players from each position.- determine order of trade based off of standings of previous season.- develop into a fully playable fantasy season.- add a trade functionality between the users/teams." wrapText="true" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

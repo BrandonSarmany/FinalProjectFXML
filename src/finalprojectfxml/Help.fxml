@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="740.0" prefWidth="1008.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalprojectfxml.HelpController">
+   <children>
+      <Accordion layoutY="69.0" prefHeight="227.0" prefWidth="775.0">
+        <panes>
+          <TitledPane prefHeight="58.0" prefWidth="610.0" text="How to I complete a draft?">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextArea fx:id="Q1" layoutX="-3.0" layoutY="-2.0" prefHeight="132.0" prefWidth="775.0" text="Return to the main menu and click on the button that says &quot;Draft&quot;. A seperate screen will come up that displays the drafting interface. Each team will select a player that they want. This process will continue until all of the players have been selected. " wrapText="true" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane prefHeight="153.0" prefWidth="719.0" text="How long does it take for the drafted player to be on the team?">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextArea fx:id="Q2" layoutX="-1.0" layoutY="-1.0" prefHeight="136.0" prefWidth="775.0" text="As soon as a player is selected, the player is brought to that team. Once all the players have been picked the teams are finalized and are then shown in the folder." wrapText="true" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane prefHeight="149.0" prefWidth="760.0" text="Are there any restrictions on picking players?">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextArea fx:id="Q3" prefHeight="136.0" prefWidth="775.0" text="There are no restrictions to picking a player. Each team has there own option on who and on many players of each postion that they want." wrapText="true" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+        </panes>
+      </Accordion>
+      <Button id="goToMenu3" layoutX="879.0" mnemonicParsing="false" onAction="#loadMenu" prefHeight="47.0" prefWidth="129.0" text="Menu" />
+      <Label layoutY="4.0" prefHeight="60.0" prefWidth="433.0" text="Freqently Asked Questions" underline="true">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

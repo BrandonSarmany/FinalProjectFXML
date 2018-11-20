@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="740.0" prefWidth="1008.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalprojectfxml.MainMenuController">
+   <children>
+      <VBox layoutX="358.0" layoutY="319.0" prefHeight="400.0" prefWidth="292.0" spacing="20.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#loadTrade" prefHeight="104.0" prefWidth="294.0" text="Draft Players">
+               <font>
+                  <Font size="34.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#loadCreator" prefHeight="104.0" prefWidth="294.0" text="About Creators">
+               <font>
+                  <Font size="34.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#loadHelp" prefHeight="104.0" prefWidth="294.0" text="FAQ" textAlignment="CENTER">
+               <font>
+                  <Font size="34.0" />
+               </font></Button>
+         </children>
+      </VBox>
+      <Label layoutX="72.0" layoutY="36.0" prefHeight="177.0" prefWidth="864.0" text="   Fantasy Hockey Draft" textAlignment="CENTER" textFill="#e10e0e" wrapText="true">
+         <font>
+            <Font size="80.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
